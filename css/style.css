@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    line-height: 110%;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.bg-light {background: #EFEFEF; }
+
+.large-text {
+    font-size: 3rem;
+    line-height: 110%;
+    font-weight: 600;
+    color: #ADADAD;
+}
+
+.text-input, .text-button-pri {
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    height: 40px;
+    text-align: center;
+}
+
+.text-input { background: #EFEFEF; }
+.text-input:focus {
+    background: #ffffff;
+    border: 2px solid #000000;
+}
+
+.text-button-pri {
+    background: #0099dd;
+    border-radius: 100px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 0px 30px;
+}
+
+.signup-pp {
+    font-size: small;
+    outline: none;
+    border:none; 
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    background: #EFEFEF;
+    color:  #ADADAD;
+    
+}
+.signup-pp:hover {border:2px solid #0099dd; }
+
+a {text-decoration: none;}
+
+/* dashboard */
+.user-pic {
+    width: 70px;
+    height: 70px;
+    background-image: url("images/user_temp.png");
+}
+
+.f-20-bold, .f-15-bold, .f-30-bold {
+    font-weight: 600;
+}
+.f-20-bold {font-size: 20px;}
+.f-15-bold {font-size: 15px;}
+.f-30-bold {font-size: 30px;}
+
+.f-red-bold {
+    color: #AA2236;
+    font-weight: bold;
+}
+.whatcha-doin, .whatcha-doin-input {
+    /* border: 2px solid #ADADAD; */
+    height: 5vw;
+    min-height: 65px;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+.whatcha-doin-input {padding-left: 30px; outline: none;}
+.whatcha-doin-input::placeholder {
+    color:  #ADADAD;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+.br-25 {border-radius: 25px;}
+.br-20 {border-radius: 20px;}
+.br-10 {border-radius: 10px;}
+.circle-btn {
+    background: none;
+    
+}
+.tag-line {
+    height: auto;
+    border-radius: 10px;
+    width: 5px;
+    background-color: #AA2236;
+    margin-right: 15px;
+}
+
+/* donut chart */
+.stats {
+    width: 320px;
+    
+}
+
+.donut-chart {
+    width: 200px;
+    height: 200px;
+    
+}
