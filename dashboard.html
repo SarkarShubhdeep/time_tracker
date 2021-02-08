@@ -11,9 +11,12 @@
     <title>Dashboard</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="/css/vanilla-calendar-min.css">
+    <script src="/js/vanilla-calendar-min.js"></script>
   </head>
   <body>
     <div class="container mt-4 p-0">
+        
         <!-- Top bar -->
         <div class="container  mt-2">
             <div class="row p-2 ">
@@ -56,7 +59,7 @@
         <div class="row mt-3 p-2  ">
 
             <!-- donut analysis -->
-            <div class="stats br-20 bg-light  p-3 me-3 mb-3 pb-4">
+            <div class=" stats br-20 bg-light  pb-3 mb-3 pb-4 ms-1 me-1">
                 <div class=" mt-2" >
                     <div class="row d-flex justify-content-center ">
                         <div class="donut-chart  p-0 ">
@@ -93,7 +96,7 @@
 
 
             <!-- tasks cards -->
-            <div class="col bg-light pt-3 pb-3 br-20">
+            <div class="col bg-light pt-3 pb-3 br-20 ms-1 me-1">
                 <div class="row mb-2">
                     <div class="col  d-flex align-items-center">
                         <button class="border-0 circle-btn p-2" ><img src="images/chevron-left.svg" alt=""></button>
@@ -213,7 +216,17 @@
                 </div>
             </div>
 
-            
+            <!-- calendar -->
+            <div class="stats br-20 bg-light  ms-1 me-1 mb-3 pb-4  ">
+                <div class=" " >
+                    <div class="row d-flex justify-content-center ">
+                        <div id="myCalendar" class="vanilla-calendar"></div>
+                        
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
             
         </div>
 
@@ -228,7 +241,7 @@
 <div class="border container-xxl">100% wide until extra extra large breakpoint</div> -->
 
     <!-- Custom script -->
-    <script src="/scripts/script.js"></script>
+    <script src="/js/script.js"></script>
 
 
     <!-- Bootstrap Bundle with Popper -->

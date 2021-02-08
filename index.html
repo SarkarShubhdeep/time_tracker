@@ -1,78 +1,81 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <title>index</title>
-  </head>
-  <body>
-    <div class="container  wrap">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <title>index</title>
+    </head> 
 
-        <!-- Top bar -->
-        <div class="container mt-3 ">
-            <div class="row " style="font-size: 20px; line-height: 110%;">
-                <div class="col  ">
-                    <div class="row mx-auto d-flex align-items-center " style="width: 130px">
-                        <div class=" text-end p-0" style="width: 60px;">
-                            <img class="" style="width: 60px;" src="images/onfisto_green_gradient.svg" alt="">
+    <body class="bg-blur-clocks" 
+        style="background: url(images/bg/clocks_lighten_blur.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img class="logo-full mt-5" src="/images/homi_logo_full.svg"  alt="">
+                </div>
+            </div>
+            <div class="row mt-5">
+
+                <div class="col">
+                    <div class="row">
+                        <div class="col big-quote ">
+                            Time isn’t the only thing. <br>It’s the only thing. 
                         </div>
-                        <div class="pl-1 fw-bold text-start" style="width: 70px;">
-                           Time<br>Tracker
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col f-30-bold fst-italic ">
+                            - Miles Davis
                         </div>
-                        
+                    </div>
+                </div>
+                
+                <!-- sign in card -->
+                <div class="bg-dark-card mx-auto" style=" width: 300px">
+                    <div class="row">
+                        <div class="col text-center f-20-bold text-white">
+                            Sign into your account
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <input class="text-input-dark" placeholder="Email" type="text">
+                    </div>
+                    <div class="row mt-2">
+                        <input class="text-input-dark" placeholder="Password" type="text">
+                    </div>
+                    <div class="row mt-3">
+                        <input class="text-button-pri" type="button" value="LOGIN">
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col  p-0 text-start">
+                            <u><a href="" class="text-light">Forgot password</a></u>
+                        </div>
+                        <div class="col p-0 text-end">
+                            <u><a href="" class="text-light">Create new account</a></u>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <div class="container-md align-items-center mt-5" style="height: 60vh;">
-        <div class="row mx-auto"> 
-            <div class="large-text text-center ">
-                Sign into your account
-            </div>
-        </div>
-        <div class="row mx-auto mt-4" style="width: 250px">
-            <div class="col">
-                <div class="row">
-                    <input class="text-input" type="text"  placeholder="Username">
-                </div>
-                <div class="row mt-2">
-                    <input class="text-input" type="text"  placeholder="Password">
-                </div>
-                <div class="row mt-3 ">
-                    <div class="col text-center" >
-                        <input class="text-button-pri" type="button" value="Login">
-                    </div>
-                </div>
-                <div class="row  ">
-                    <div class="col text-center" >
-                        or
-                    </div>
-                </div>
-                <div class="row ">
-                    <div class="col text-center" >
-                        <em><a href="signup.html">Create a new account</a></em>
-                    </div>
-                </div>
+        
 
-            </div>
-        </div>
-    </div>
+        <!-- <div class="border container-sm">100% wide until small breakpoint</div>
+        <div class="border container-md">100% wide until medium breakpoint</div>
+        <div class="border container-lg">100% wide until large breakpoint</div>
+        <div class="border container-xl">100% wide until extra large breakpoint</div>
+        <div class="border container-xxl">100% wide until extra extra large breakpoint</div> -->
 
-<!-- <div class="border container-sm">100% wide until small breakpoint</div>
-<div class="border container-md">100% wide until medium breakpoint</div>
-<div class="border container-lg">100% wide until large breakpoint</div>
-<div class="border container-xl">100% wide until extra large breakpoint</div>
-<div class="border container-xxl">100% wide until extra extra large breakpoint</div> -->
-
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
 
-  </body>
+    </body>
 </html>

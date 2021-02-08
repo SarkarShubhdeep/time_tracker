@@ -18,7 +18,7 @@
     color: #ADADAD;
 }
 
-.text-input, .text-button-pri {
+.text-input, .text-input-dark, .text-button-pri {
     border-radius: 100px;
     outline: none;
     border: none;
@@ -26,14 +26,17 @@
     text-align: center;
 }
 
-.text-input { background: #EFEFEF; }
+.text-input-dark {background: #00000080; color: #ffffff;}
+.text-input-dark::placeholder {color: #a2a2a2;}
+
+.text-input { background: #EFEFEF;}
 .text-input:focus {
     background: #ffffff;
     border: 2px solid #000000;
 }
 
 .text-button-pri {
-    background: #0099dd;
+    background: #d94444;
     border-radius: 100px;
     color: #ffffff;
     font-weight: 600;
@@ -54,6 +57,21 @@
 .signup-pp:hover {border:2px solid #0099dd; }
 
 a {text-decoration: none;}
+
+/* sign in */
+.logo-full {height: 80px;}
+
+.bg-dark-card {
+    background: #00000080;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.big-quote {
+    font-size: 75px;
+    font-weight: 600;
+    font-style: italic;
+}
 
 /* dashboard */
 .user-pic {
