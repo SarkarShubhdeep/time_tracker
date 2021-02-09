@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-.text-input-dark {background: #00000080; color: #ffffff;}
+.text-input-dark, .profile-pic-upload {background: #00000080; color: #ffffff;}
 .text-input-dark::placeholder {color: #a2a2a2;}
 
 .text-input { background: #EFEFEF;}
@@ -59,18 +59,37 @@
 a {text-decoration: none;}
 
 /* sign in */
+/* .c-wrap {
+    margin: auto;
+} */
 .logo-full {height: 80px;}
 
 .bg-dark-card {
     background: #00000080;
     border-radius: 20px;
     padding: 30px;
+    /* height: 250px; */
+    margin-top: 50px;
 }
 
 .big-quote {
-    font-size: 75px;
+    font-size: 30px;
+    font-size: 5vw;
     font-weight: 600;
     font-style: italic;
+}
+.quote-box {
+    height: 50vh;
+    padding-top: 100px;
+}
+
+/* sign up */
+.profile-pic-upload {
+    height: 160px;
+    width: 130px;
+    border: none;
+    border-radius: 20px;
+    color: #a2a2a2;;
 }
 
 /* dashboard */
@@ -135,3 +154,31 @@ a {text-decoration: none;}
     height: 200px;
     
 }
+
+/* media */
+/* @media screen and (min-width: 50em) {
+    html {
+        font-size: 2vw;
+    }
+} */
+
+@media (max-width: 576px) { 
+    .big-quote {
+        font-size: 30px;
+    }
+    .quote-box {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    .bg-dark-card {
+        margin-top: 20px;
+    }
+    .logo-box {
+        text-align: center;
+    }
+
+}
+
+
